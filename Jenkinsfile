@@ -20,7 +20,7 @@ pipeline {
             steps {
                 sh '''
                     ls
-                    zip -r lambda_package.zip lambda_function.py
+                    zip -r lambda_package.zip lambda-app/lambda_function.py
                 '''
             }
         }
